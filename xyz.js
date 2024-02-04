@@ -20,23 +20,23 @@ moon.addEventListener("click",()=>{
     low.classList.toggle("bgc-White");
     btn.classList.toggle("bgc-White" );
     btn.classList.toggle("col-Black" );
-    // moon.classList.toggle("dis-None");
-    // sun.classList.toggle("dis-Block");
+    moon.classList.toggle("dis-None");
+    sun.classList.toggle("dis-Block");
 
 })
 
 
-// sun.addEventListener("click",()=>{
-//     for(let i of icons){
-//         i.classList.toggle("col-White");
-//     }
-//     main.classList.toggle("bgc-Black");
-//     p.classList.toggle("col-White")
-//     imgage.classList.toggle("bor-White");
-//     low.classList.toggle("bgc-White");
-//     btn.classList.toggle("bgc-White" );
-//     btn.classList.toggle("col-Black" );
-//     moon.classList.toggle("dis-None");
-//     sun.classList.toggle("dis-Block");
+sun.addEventListener("click",()=>{
+    for(let i of icons){
+        i.classList.toggle("col-White");
+    }
+    main.classList.toggle("bgc-Black");
+    p.classList.toggle("col-White")
+    imgage.classList.toggle("bor-White");
+    low.classList.toggle("bgc-White");
+    btn.classList.toggle("bgc-White" );
+    btn.classList.toggle("col-Black" );
+    moon.classList.toggle("dis-None");
+    sun.classList.toggle("dis-Block");
 
-// })
+})
